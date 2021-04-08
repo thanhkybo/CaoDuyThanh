@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Tạo form đơn giản</title>
+</head>
+<style>
+    form{
+        width: 300px;
+    }
+    fieldset{
+        background-color: deepskyblue;
+    }
+    table{
+        width: 400px;
+        background-color: aliceblue    }
+    #hang1{
+        color: white;
+        background-color: orangered;
+        text-align: center;
+    }
+    #email{
+        size: 20px
+    }
+    #colo{
+        text-align: right;
+        color: blue;
+    }
+</style>
+<body>
+<form>
+    <fieldset>
+        <table>
+            <tr>
+                <td colspan="4" id="hang1">SỞ THÍCH CỦA BẠN</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td id="colo">Họ và tên</td>
+                <td colspan="3"><input type="text" id="hovaten"></td>
+            </tr>
+            <tr>
+                <td id="colo">Email</td>
+                <td colspan="3" id="email"><input type="email"></td>
+            </tr>
+            <tr>
+                <td id="colo">Sở thích</td>
+                <td><input type="checkbox" name="sothich" id="1">Thể Thao</td>
+                <td><input type="checkbox" name="sothich" id="2">Âm nhạc</td>
+                <td><input type="checkbox" name="sothich" id="3">Đọc sách</td>
+            </tr>
+            <tr>
+                <td></td>
+                <td><input type="checkbox" name="sothich" id="4">Lướt web</td>
+                <td><input type="checkbox" name="sothich" id="5">Chơi game</td>
+                <td><input type="checkbox" name="sothich" id="6">Điện ảnh</td>
+            </tr>
+            <tr>
+                <td> <td><input type="checkbox" name="sothich" id="7">Du lịch</td></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td><input type="submit" name="" value="Gửi thông tin" id="sumit" ></td>
+                <td><input type="reset" name="" value="Nhập lại" id="reset"></td>
+            </tr>
+        </table>
+    </fieldset>
+</form>
+</body>
+</html>

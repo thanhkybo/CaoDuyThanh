@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>So thich cua ban</title>
+</head>
+<style>
+    form{
+        width: 300px;
+    }
+    fieldset{
+        background-color: deepskyblue;
+    }
+    table{
+        width: 400px;
+        background-color: aliceblue;
+    }
+    #h1{
+        color: white;
+        background-color: orangered;
+        text-align: center;
+    }
+    #email{
+        size: 20px
+    }
+    .color{
+        text-align: right;
+        color: blue;
+    }
+    .sothich {
+        color: orangered;
+    }
+    </style>
+<body>
+<form>
+    <fieldset>
+        <table>
+            <tr>
+                <td colspan="4" id="h1">SỞ THÍCH CỦA BẠN</td>
+            </tr>
+            <tr>
+                <td class="color">Họ và tên</td>
+                <td colspan="3">
+                <input type="text" id="yourname">
+                </td>
+            </tr>
+            <tr>
+                <td class="color">Email</td>
+                <td colspan="3">
+                <input type="text" id="email">
+                </td>
+            </tr>
+            <tr>
+                <td class="color">Sở thích</td>
+                <td class="sothich">
+                    <input type="checkbox" name="Thể Thao" id="1">Thể Thao
+                </td>
+                <td class="sothich">
+                    <input type="checkbox" name="Âm nhạc" id="2">Âm nhạc
+                </td>
+                <td class="sothich">
+                    <input type="checkbox" name="Đọc sách" id="3">Đọc sách
+                </td>
+            </tr>
+            <tr>
+                <td></td>
+                <td class="sothich">
+                    <input type="checkbox" name="Lướt Web" id="4">Lướt web
+                </td>
+                <td class="sothich">
+                    <input type="checkbox" name="Chơi Game" id="5">Chơi game
+                </td>
+                <td class="sothich">
+                    <input type="checkbox" name="Điện ảnh" id="6">Điện ảnh
+                </td>
+            </tr>
+            <tr>
+                <td></td>
+                <td class="sothich">
+                    <input type="checkbox" name="Du lịch" id="7">Du lịch
+                </td>
+            </tr>
+            <tr>
+                <td></td>
+                <td class="sothich">
+                    <input type="submit" name value="Gửi thông tin" id="submit">
+                </td>
+                <td class="sothich">
+                    <input type="reset" name value="Nhập lại" id="reset">
+                </td>
+            </tr>
+        </table>
+    </fieldset>
+</form>
+</body>
+</html>
