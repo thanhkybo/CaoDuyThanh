@@ -6,21 +6,14 @@
 </head>
 <body>
     <script>
-        let year = parseInt(prompt("Enter a year"));
+        let A;
+        let B;
 
-        if (year % 4 == 0) {
-            if (year % 100 == 0) {
-                if (year % 400 == 0) {
-                    alert(year + " is a leap year");
-                } else {
-                    alert(year + " is NOT a leap year");
-                }
-            } else {
-                alert(year + " is a leap year");
-            }
-        } else {
-            alert(year + " is NOT a leap year");
-        }
+        A = parseInt(prompt("Enter the A"));
+        B = parseInt(prompt("Enter the B"));
+
+        let AB = A + B;
+        alert (" Tong " + AB);
     </script>
 </body>
 </html>
